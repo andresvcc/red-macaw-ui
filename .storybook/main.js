@@ -8,6 +8,8 @@ module.exports = {
     "@storybook/addon-interactions",
     "@storybook/addon-postcss",
     "storybook-addon-apollo-client",
+    "storybook-xstate-addon/preset",
+    "@storybook/preset-create-react-app",
   ],
   "framework": "@storybook/react",
   "core": {

@@ -1,6 +1,7 @@
 import { MockedProvider } from '@apollo/client/testing';
 
 export const parameters = {
+  xstate: true,
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
     matchers: {

@@ -3,11 +3,16 @@
   "version": "0.0.0",
   "author": "dipsaus9",
   "description": "Button description",
-  "main": "dist/button.es.js",
-  "module": "dist/button.es.js",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
   "scripts": {
     "lint": "eslint ./src",
     "tsc": "tsc"
   },
-  "types": "./src/button.d.ts"
+  "types": "./src/button.d.ts",
+  "dependencies": {
+    "antd": "^4.23.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
