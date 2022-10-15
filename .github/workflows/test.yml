@@ -28,7 +28,5 @@ jobs:
         run: | # Install npm packages and build the Storybook files
           yarn install --frozen-lockfile
 
-      - name: Lint 👏
-        run: yarn lint 
       - name: Test 🪛
         run: yarn test 
