@@ -1,7 +1,7 @@
 name: Build and Deploy Storybook
 on:
   push:
-    branches: [ main ]
+    branches: [ story ]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
