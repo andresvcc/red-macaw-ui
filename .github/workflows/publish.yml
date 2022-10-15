@@ -6,5 +6,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: NPM Publish
-        uses: JS-DevTools/npm-publish@v1
+      - run: npm install
+      - uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
