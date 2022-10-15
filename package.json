@@ -1,11 +1,11 @@
 {
   "name": "red-macaw-ui",
-  "version": "1.0.0",
+  "version": "1.0.20",
   "license": "MIT",
   "email" : "andresvcc88@gmail.com",
   "repository": "github:andresvcc/red-macaw-ui",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/YOUR_REPOSITORY_NAME"
+    "registry": "https://npm.pkg.github.com/red-macaw-ui"
   },
   "description": "A simple template for a custom React component library",
   "scripts": {
