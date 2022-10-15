@@ -1,11 +1,10 @@
-name: chimpwizards-npm-publish
-  # You may pin to the exact commit or the version.
-  # uses: chimpwizards-pipeline/npm-publish@6765907fd3fc2a1a14274d4fbdf4bcd340b491cb
-  uses: chimpwizards-pipeline/npm-publish@v1.0.2
-  with:
-    # NPM Repository Username
-    NPM_USERNAME: andresvcc
-    # NPM Repository user email
-    NPM_AUTH_EMAIL: andresvcc88@gmail.com
-    # NPM Repository Access Token
-    NPM_AUTH_TOKEN_BASE64: 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
+name: publish
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: NPM Publish
+        uses: JS-DevTools/npm-publish@v1
