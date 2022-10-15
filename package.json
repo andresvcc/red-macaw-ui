@@ -1,8 +1,8 @@
 {
   "name": "red-macaw-ui",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "license": "MIT",
-  "email" : "andresvcc88@gmail.com",
+  "email": "andresvcc88@gmail.com",
   "repository": "github:andresvcc/red-macaw-ui",
   "description": "A simple template for a custom React component library",
   "scripts": {
