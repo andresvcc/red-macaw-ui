@@ -18,15 +18,28 @@ jobs:
       - name: "cat package.json"
         run: cat ./package.json
       - name: "Setup Node.js"
-        uses: "actions/setup-node@v1"
+        uses: "actions/setup-node@v3"
         with:
           node-version: 16
+      
+      - name: "install"
+        run: npm install
+      - name: "test"
+        run: npm run test
+      - name: "build"
+        run: npm run build
+        
       - name: "Automated Version Bump"
         uses: "phips28/gh-action-bump-version@master"
         with:
-          tag-prefix: ''
-          target-branch: 'master'
+          tag-prefix: 'v'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: "cat package.json"
         run: cat ./package.json
+        
+      - name: "publish"
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+
