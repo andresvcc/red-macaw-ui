@@ -1,8 +1,9 @@
 name: npm-publish
 on:
   push:
-    branches:
-      - npm 
+    # Pattern matched against refs/tags
+    tags:        
+      - '**' 
 jobs:
   publish:
     runs-on: ubuntu-latest
