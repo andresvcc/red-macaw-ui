@@ -5,7 +5,7 @@ import Button2 from './Button2';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: 'ReactComponentLibrary/Button',
+  title: 'ReactComponentLibrary/Button2',
   component: Button2,
 } as ComponentMeta<typeof Button2>;
 
