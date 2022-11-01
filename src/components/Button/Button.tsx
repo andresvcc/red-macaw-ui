@@ -1,12 +1,14 @@
 import React from "react";
+import { Button } from 'antd';
 import "./Button.scss";
+import 'antd/dist/antd.css'
 
 export interface ButtonProps {
   label: string;
 }
 
-const Button = (props: ButtonProps) => {
-  return <button>{props.label}</button>;
+const MDButton = (props: ButtonProps) => {
+  return <Button>{props.label}</Button>;
 };
 
-export default Button;
+export default MDButton;
