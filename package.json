@@ -6,7 +6,6 @@
   "repository": "github:andresvcc/red-macaw-ui",
   "description": "A simple template for a custom React component library",
   "scripts": {
-    "preinstall": "npx npm-force-resolutions",
     "storybook": "start-storybook -p 9009",
     "rollup": "rollup -c",
     "build": "rollup -c",
@@ -58,11 +57,5 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
-  "resolutions": {
-    "meow": "^5.0.0",
-    "trim-newlines": "^4.0.2",
-    "trim": "^0.0.3",
-    "glob-parent": "^5.1.2"
-  }
+  "types": "dist/index.d.ts"
 }
