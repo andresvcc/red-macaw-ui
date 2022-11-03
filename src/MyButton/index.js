@@ -9,14 +9,10 @@ const StyledButton= styled(Button)`
     }
 `;
 
-export interface ButtonProps {
-    children: ReactNode;
-}
-
-const MyButton = (props: ButtonProps)=>{
+const MyButton = ({children})=>{
     return(
         <StyledButton>
-            {props.children}
+            {children}
         </StyledButton>
     )
 }
