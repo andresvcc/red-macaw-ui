@@ -1,18 +1,19 @@
 import React, { FC, ReactNode } from 'react';
 import styled from 'styled-components';
 import { Button } from 'antd';
+import { ButtonProps } from 'antd/lib/button';
 import 'antd/dist/antd.min.css'
 
-const StyledButton= styled(Button)`
+const StyledButton: React.FunctionComponent<ButtonProps> = styled(Button)`
     &:hover {
         background-color: #0a558c;
     }
 `;
 
-const MyButton = ({children})=>{
+const MyButton = (props: ButtonProps)=>{
     return(
         <StyledButton>
-            {children}
+            {props.children}
         </StyledButton>
     )
 }
