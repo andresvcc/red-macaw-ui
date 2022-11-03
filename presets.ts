@@ -1,4 +1,3 @@
-return {
-    type: 'presets',
-    name: undefined
-  };
+export function config(entry = []) {
+  return [...entry, require.resolve('./defaultParameters')];
+}

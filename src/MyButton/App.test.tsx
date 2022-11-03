@@ -1,3 +1,4 @@
+import React from '@storybook/react';
 import { render } from "@testing-library/react";
 
 import Button from "./MyButton";

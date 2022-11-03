@@ -1,10 +1,10 @@
-import React, { FC, ReactNode } from 'react';
+import React, { FC, ReactNode} from 'react';
 import styled from 'styled-components';
 import { Button } from 'antd';
 import { ButtonProps } from 'antd/lib/button';
 import 'antd/dist/antd.min.css'
 
-const StyledButton: React.FunctionComponent<ButtonProps> = styled(Button)`
+const StyledButton: FC<ButtonProps> = styled(Button)`
     &:hover {
         background-color: #0a558c;
     }
@@ -12,7 +12,7 @@ const StyledButton: React.FunctionComponent<ButtonProps> = styled(Button)`
 
 export interface StyledButtonProps extends ButtonProps {
     label?: string;
-    children?: string;
+    children?: ReactNode;
 }
 
 const MyButton = (props: StyledButtonProps)=>{

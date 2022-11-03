@@ -1,7 +1,5 @@
 // Button.stories.js|jsx
-import React from 'react';
-
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import React, { ComponentStory, ComponentMeta } from '@storybook/react';
 
 import Button from './MyButton';
 
