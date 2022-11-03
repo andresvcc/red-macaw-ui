@@ -14,7 +14,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "storybook": "start-storybook -p 9009",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -o docs-build"
   },
   "peerDependencies": {
     "antd": "^4.24.0",
@@ -37,16 +37,27 @@
     "./styles.css": "./dist/style.css"
   },
   "dependencies": {
+    "@storybook/addon-info": "^5.3.21",
     "antd": "^4.24.0",
     "styled-components": "5.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.19.4",
     "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.16.0",
+    "@mdx-js/react": "^2.1.2",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-links": "^6.5.13",
     "@storybook/builder-vite": "^0.2.5",
     "@storybook/core-common": "^6.5.13",
     "@storybook/preset-ant-design": "^0.0.2",
     "@storybook/preset-create-react-app": "^4.1.2",
+    "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^6.5.13",
     "@testing-library/react": "^13.4.0",
     "@types/jest": "^29.2.1",

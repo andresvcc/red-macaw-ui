@@ -10,7 +10,12 @@ const StyledButton: React.FunctionComponent<ButtonProps> = styled(Button)`
     }
 `;
 
-const MyButton = (props: ButtonProps)=>{
+export interface StyledButtonProps extends ButtonProps {
+    label?: string;
+    children?: string;
+}
+
+const MyButton = (props: StyledButtonProps)=>{
     return(
         <StyledButton>
             {props.children}
