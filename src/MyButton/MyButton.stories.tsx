@@ -35,10 +35,6 @@ export default {
         disable: true
       }
     },
-    variant: {
-      options: ['primary', 'secondary'],
-      control: { type: 'radio' },
-    },
   },
 } as ComponentMeta<typeof Button>;
 

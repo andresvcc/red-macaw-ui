@@ -67,3 +67,4 @@ npm-debug.log*
 # VS Code
 .vscode/
 .npmrc
+docs-build
