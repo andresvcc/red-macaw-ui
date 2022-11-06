@@ -3,21 +3,21 @@
 </h1>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/melquisedecfelipe/react-vite.svg">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/andresvcc/red-macaw-ui.svg">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/melquisedecfelipe/react-vite.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/andresvcc/red-macaw-ui.svg">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/melquisedecfelipe/react-vite.svg">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/andresvcc/red-macaw-ui.svg">
 
-  <a href="https://github.com/melquisedecfelipe/react-vite/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/melquisedecfelipe/react-vite.svg">
+  <a href="https://github.com/andresvcc/red-macaw-ui/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/andresvcc/red-macaw-ui.svg">
   </a>
 
-  <a href="https://github.com/melquisedecfelipe/react-vite/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/melquisedecfelipe/react-vite.svg">
+  <a href="https://github.com/andresvcc/red-macaw-ui/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/andresvcc/red-macaw-ui.svg">
   </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/melquisedecfelipe/react-vite.svg">
+  <img alt="GitHub" src="https://img.shields.io/github/license/andresvcc/red-macaw-ui.svg">
 </p>
 
 <p align="center">
@@ -46,7 +46,7 @@ This project was developed with the following technologies:
 To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16](https://nodejs.org/) or higher + [Yarn v1.13](https://yarnpkg.com/) or higher installed on your computer. From your command line:
 
 ```bash
-$ git clone https://github.com/melquisedecfelipe/react-vite my-app
+$ git clone https://github.com/andresvcc/red-macaw-ui my-app
 
 # Go into the repository and install dependencies
 $ cd my-app && yarn
@@ -68,7 +68,7 @@ $ yarn dev
 
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/melquisedecfelipe/react-vite/blob/master/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/andresvcc/red-macaw-ui/blob/master/LICENSE) for more information.
 
 ---
 

@@ -25,7 +25,17 @@ export default {
     grey: '#707372',
     greyLight: '#F0ECFC',
     link: '#4D6EDB',
-    white: '#FFFFFF'
+    white: '#FFFFFF',
+  },
+  textColorsButton: {
+    primary: '#9824ff',
+    default: '#909090',
+    secondary: '#98240f',
+  },
+  defaultColorsButton: {
+    primary: '#9824ff',
+    default: '#b5b5b5',
+    secondary: '#98240f',
   },
   spacings: {
     xxsmall: '4px',

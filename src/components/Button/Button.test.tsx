@@ -1,10 +1,10 @@
 import React from '@storybook/react'
 import { render } from '@testing-library/react'
 
-import Button from './MyButton'
+import TextButton from '.'
 
-describe('Button', () => {
+describe('TextButton', () => {
   test('renders the Button component', () => {
-    render(<Button>hello</Button>)
+    render(<TextButton>hello</TextButton>)
   })
 })

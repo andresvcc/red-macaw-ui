@@ -16,7 +16,6 @@ export default defineConfig({
     preprocessorOptions: {
       less: {
         javascriptEnabled: true,
-        additionalData: '@import "antd/dist/antd.min.css";'
       }
     }
   },
