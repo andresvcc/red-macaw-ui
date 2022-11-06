@@ -1,6 +1,6 @@
 {
   "name": "red-macaw-ui",
-  "version": "1.1.26",
+  "version": "1.1.27",
   "repository": "github:andresvcc/red-macaw-ui",
   "description": "A simple template for a custom React component library",
   "license": "MIT",
